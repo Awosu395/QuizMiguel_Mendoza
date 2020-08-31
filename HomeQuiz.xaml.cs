@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,23 +14,13 @@ using System.Windows.Shapes;
 namespace Quiz_Miguel
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para HomeQuiz.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class HomeQuiz : Page
     {
-        public MainWindow()
+        public HomeQuiz()
         {
             InitializeComponent();
-        }
-
-        private void Frame_Navigated(object sender, NavigationEventArgs e)
-        {
-
-        }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            frameMain.NavigationService.Navigate(new HomeQuiz());
         }
     }
 }

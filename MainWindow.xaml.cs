@@ -32,7 +32,20 @@ namespace Quiz_Miguel
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            frameMain.NavigationService.Navigate(new HomeQuiz());
+            frameMain.NavigationService.Navigate(new Login());
+        }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtUsername.Text == "miguel" && txtPassword.Password == "1234")
+            {
+                MainWindow w= (MainWindow) Window.GetWindow(this);
+                w.frameMain.NavigationService.Navigate(new Home());
+            }
+            else
+            {
+                MessageBox.Show("Invalid Credential");
+            }
         }
     }
 }

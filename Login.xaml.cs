@@ -14,11 +14,11 @@ using System.Windows.Shapes;
 namespace Quiz_Miguel
 {
     /// <summary>
-    /// Lógica de interacción para HomeQuiz.xaml
+    /// Lógica de interacción para Login.xaml
     /// </summary>
-    public partial class HomeQuiz : Page
+    public partial class Login : Page
     {
-        public HomeQuiz()
+        public Login()
         {
             InitializeComponent();
         }

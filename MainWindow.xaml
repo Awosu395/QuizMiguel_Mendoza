@@ -10,16 +10,12 @@
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FFFFB3B3" Offset="1"/>
-                <GradientStop Color="White" Offset="1"/>
+                <GradientStop Color="White" Offset="0.968"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Label Content="LOGIN
-               " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" FontFamily="Bell MT" Margin="371,1,0,0"/>
-        <Frame Name="frameMain" Content="" Margin="0,51,0,32" Navigated="Frame_Navigated" NavigationUIVisibility="Hidden" />
-        <Label Content="Label" HorizontalAlignment="Left" Margin="330,74,0,0" VerticalAlignment="Top"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="330,113,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="440,82,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <PasswordBox HorizontalAlignment="Left" Margin="440,117,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="FRUTAS" HorizontalAlignment="Left" Margin="327,0,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Bodoni MT"/>
+        <Frame Content="" Margin="0,53,0,38" NavigationUIVisibility="Hidden"/>
+
 
     </Grid>
 </Window>
